@@ -8,6 +8,19 @@ header{
     outline: none;
     border: none;
 }
+#MyPhoto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+li{
+    transition: 1.5s;
+}
+li:hover{
+    background-color: aqua;
+    transition: 1s;
+}
 .user{
     width: 40px;
     height: 40px;
